@@ -13,7 +13,7 @@ pipeline{
            }
            stage('Deploy-staging'){
                steps{
-                   buid job:'deploy'
+                   build job:'deploy'
                }
            }
        }
