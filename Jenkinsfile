@@ -6,7 +6,7 @@ pipeline{
                    sh 'mvn clean package'
                }
                post{
-                   suceess{
+                   success{
                        archiveArtifacts artifacts: '**/target/*.war'
                       }
                    }
