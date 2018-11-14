@@ -1,3 +1,3 @@
 from tomcat
-copy ./webapp/targets/*.war C:\apache-tomcat-8.5.35\webapps\
+copy ./webapp/targets/*.war /usr/local/tomcat/webapps/
 CMD ["catalina.sh", "run"]
