@@ -7,6 +7,7 @@ pipeline{
                    bat 'docker build .'
                    bat 'hello'
                    bat 'hello'
+                   bat 'django'
                }
                
            }
