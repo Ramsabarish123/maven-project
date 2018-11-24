@@ -5,6 +5,7 @@ pipeline{
                steps{
                    bat 'mvn clean package'
                    bat 'docker build .'
+                   bat 'hi'
                }
                
            }
